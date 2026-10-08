@@ -1,0 +1,21 @@
+# Arduino / 编译产物
+*.bin
+*.elf
+*.map
+build/
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+
+# 本机临时
+__pycache__/
+*.pyc
+
+# 数据里那个被 Excel 改坏的原件——留证用，不进仓库
+数据/_损坏备份/
+
+# 课程参考里的讲义（不是我的产出，且 11.6 MB）
+课程参考/Week2.pptx
